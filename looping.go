@@ -13,4 +13,12 @@ func main() {
 		fmt.Println("Number is =", i)
 	}
 
+	//Optional Init and Post Statements in for loop
+	sum := 1
+	for ; sum < 100; {
+		sum += sum
+	}
+
+	fmt.Println(sum)
+
 }
